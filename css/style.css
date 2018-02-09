@@ -10,6 +10,13 @@ body {
     max-width: auto;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main-content";
+}
+
 .introduction {
     background-image: url("../img/brooklyn.jpg");
     background-repeat: no-repeat;
@@ -17,7 +24,7 @@ body {
     background-position: center;
     min-height: 690px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: fit-content(150px, 1fr);
 
 
 }
@@ -36,7 +43,9 @@ body {
 
 #main-content {
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 #main-content .left-box {
@@ -49,7 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: serif; 
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
