@@ -42,7 +42,7 @@ body {
     
 }
 
-@media(min-width: 468px) {
+@media(min-width: 768px) {
     #main-content {
         display: flex;
         flex-direction: column;
