@@ -10,12 +10,6 @@ body {
     max-width: auto;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main-content";
-}
 
 .introduction {
     background-image: url("../img/brooklyn.jpg");
@@ -57,6 +51,8 @@ body {
     flex-basis: 15%;
     justify-content: center;
     margin-top: 10em;
+    height: 21em;
+    padding-top: 2em;
 }
 
 .left-box h4 {
@@ -83,4 +79,8 @@ body {
     font-family: 'Arapey', serif;
 }
 
+#video video {
+    width: 100% !important;
+    height: auto !important; 
+}
 /* MEDIA QUERIES */
