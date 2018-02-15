@@ -10,7 +10,6 @@ body {
     max-width: auto;
 }
 
-
 .introduction {
     background-image: url("../img/brooklyn.jpg");
     background-repeat: no-repeat;
@@ -18,7 +17,7 @@ body {
     background-position: center;
     min-height: 722px;
     display: grid;
-    grid-template-columns: fit-content(150px, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
 
 
 }
@@ -32,24 +31,26 @@ body {
     color: var(--light);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 250px;
     
 }
 
 
 #main-content {
-    display: flex;
-    flex-direction: row;
-    height: 42em;
-    align-items: flex-start;
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 1rem; 
+    height: auto;
+    width: 100%; 
+    margin-bottom: 10rem; 
 }
 
 .left-box {
     display: flex;
-    flex-grow: 2;
-    flex-basis: 15%;
-    justify-content: center;
+    flex-flow: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
     margin-top: 10em;
     height: 21em;
     padding-top: 2em;
@@ -62,10 +63,10 @@ body {
 
 .right-box {
     display: flex;
-    flex-grow: 3;
-    flex-basis: 30%;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    flex-flow: column; 
     margin-top: 10em;
-    flex-wrap: wrap;
 }
 
 .right-box h2 {
