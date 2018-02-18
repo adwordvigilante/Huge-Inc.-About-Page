@@ -1,0 +1,22 @@
+{
+  "name": "hugeincabout",
+  "version": "1.0.0",
+  "description": "Huge-Inc. about us page created with CSS Grids, Sass, and Flexbox.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalupavigilante/Huge-Inc.-About-Page.git"
+  },
+  "author": "Roberto Severino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chalupavigilante/Huge-Inc.-About-Page/issues"
+  },
+  "homepage": "https://github.com/chalupavigilante/Huge-Inc.-About-Page#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

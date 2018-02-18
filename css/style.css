@@ -3,8 +3,10 @@
     --light: #fff; 
 }
 
-* {
-    box-sizing: border-box;
+*
+a::after,
+a::before {
+    box-sizing: inherit; 
 }
 
 html {
@@ -17,6 +19,7 @@ html, body {
 
 body {
     max-width: auto;
+    box-sizing: border-box; 
 }
 
 p {
