@@ -1,0 +1,30 @@
+
+.header {
+    display: flex;
+    flex-flow: column; 
+    flex-wrap: wrap; 
+
+    &__text-box {
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+.section-about {
+
+
+    &--left {
+        display: flex;
+        flex-flow: row; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+
+    }
+
+    &--right {
+        display: flex;
+        justify-content: center; 
+        flex-wrap: wrap; 
+        flex-flow: row; 
+
+    }
+}

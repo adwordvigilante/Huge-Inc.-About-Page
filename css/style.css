@@ -22,17 +22,53 @@ h4, h2 {
   font-family: 'Roboto', sans-serif;
   text-align: center; }
 
+.heading-secondary {
+  font-size: 7rem;
+  font-family: 'Arapey', serif;
+  font-weight: lighter; }
+
+.paragraph {
+  font-size: 2.2rem; }
+
+.line {
+  border-top: 1px solid black;
+  padding-top: 2rem;
+  width: 23rem; }
+
 .header {
   background-image: url("../img/brooklyn.jpg");
   background-size: cover;
-  background-position: top;
-  min-height: 95vh;
+  background-position: center;
+  min-height: 80vh;
   position: relative;
   overflow: hidden; }
-  .header__text-box {
-    position: absolute;
-    top: 35rem;
-    left: 25rem; }
 
 .heading-primary {
   color: #fff; }
+
+.section-about {
+  min-height: 70vh; }
+
+.section-about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr)); }
+
+.header {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap; }
+  .header__text-box {
+    justify-content: center;
+    align-items: center; }
+
+.section-about--left {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.section-about--right {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: row; }
