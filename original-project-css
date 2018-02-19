@@ -1,0 +1,279 @@
+/* GLOBAL STYLES */
+/* in the process of rebuilding my project with all the new things I've learned about Sass, reorganizing my HTML, etc. 
+:root{
+    --light: #fff; 
+}
+
+*
+a::after,
+a::before {
+    box-sizing: inherit; 
+}
+
+html {
+    font-size: 62.5%;  
+}
+
+html, body {
+    overflow-x: hidden; 
+}
+
+body {
+    max-width: auto;
+    box-sizing: border-box; 
+}
+
+p {
+    font-family: 'Arapey', serif;
+}
+
+h4, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1rem; 
+}
+
+
+
+.introduction {
+    background-image: url("../img/brooklyn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex: 0 0 auto;
+    flex-basis: 70%;  
+
+
+}
+
+.introduction h1 {
+    font-size: 18.5rem !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: -.4rem;
+    margin-top: 45rem;
+    color: var(--light);
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 25rem;
+    padding-bottom: 8rem;
+    
+}
+
+
+
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    width: 80%; 
+    margin-bottom: 10rem; 
+    align-content: stretch; 
+}
+
+.left-box {
+    display: flex;
+    flex-flow: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 10em;
+    padding-top: 2em;
+}
+
+
+.right-box {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    flex-flow: column; 
+    margin-top: 10em;
+
+}
+
+.right-box h2 {
+    font-size: 3.5rem;
+    font-family: 'Arapey', serif;
+    font-weight: lighter;
+
+
+}
+
+.right-box p {
+    margin-top: 3em;
+    font-size: 1.5em;
+}
+
+
+#video video {
+    width: 100% !important;
+    height: auto !important; 
+    
+}
+
+#team-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 1rem;
+    background: #000000;
+    color: #fff;
+    min-height: 100vh; 
+
+}
+
+.story-container {
+    display: flex; 
+    padding-top: 10rem;
+    margin-left: 12rem;
+    column-count: 2;
+    width: 100%;
+    max-height: 58rem;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.story-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    align-items: flex-start;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: .2rem; 
+    margin-top: 2.6rem;
+
+} 
+
+.story-column {
+    column-count: 2; 
+}
+
+.story-container h4 {
+    font-family: sans-serif;
+    font-weight: bold;
+    max-width: 50rem;
+}
+
+.story-container p {
+    font-family: 'Arapey', serif;
+    font-size: 1.4rem;
+    justify-content: center;
+    margin-top: 2.6rem;
+}
+
+.venn-diagram {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto; 
+}
+
+.venn-diagram img {
+    min-width: 40rem;
+    max-height: 40rem;
+    margin-top: 8rem; 
+}
+
+#branding {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    background: #000000;
+    color: #fff;
+    padding-top: 10rem;
+    padding-left: 12rem;
+    padding-bottom: 11rem;
+
+}
+
+
+#branding h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 2rem; 
+}
+#branding li {
+    list-style: none;
+    padding: 2rem;
+    font-size: 1.2rem;
+    
+}
+
+#branding a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+#list-one, #list-two, #list-three {
+    display: flex;
+    flex-flow: column; 
+}
+
+
+@media (max-width: 1021px) {
+    .story-container {
+        margin: 0; 
+
+    }
+}
+
+
+@media (max-width: 830px) {
+    .left-box {
+        display: flex;
+        flex-flow: column; 
+        flex-wrap: wrap; 
+        justify-content: left; 
+        flex-shrink: 1; 
+        flex-basis: 20rem; 
+
+    }
+
+    .right-box {
+        display: flex;
+        flex-flow: row;
+        justify-content: center; 
+        flex-wrap: wrap; 
+        flex-flow: column; 
+        flex-shrink: 1; 
+        flex-basis: 20rem;  
+
+
+        
+
+    }
+
+    .right-box h2 {
+        font-size: 2.5rem;
+    
+    }
+}
+
+
+@media (max-width: 990px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 1; 
+        margin: 0 auto;
+
+    
+    
+    }
+    
+    .introduction h1 {
+        font-size: 7rem !important;
+        text-align: left; 
+        flex-shrink: 1; 
+        flex-wrap: wrap;
+
+        
+    }
+
+}
+
+

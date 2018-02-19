@@ -1,0 +1,23 @@
+*,
+*::after,
+*a::before {
+    box-sizing: inherit; 
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    font-family: 'Arapey', sans-serif;   
+    line-height: 1.3; 
+    color: $color-black;  
+    font-size: 1.6rem; 
+    box-sizing: border-box; 
+}
+
+h4, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+

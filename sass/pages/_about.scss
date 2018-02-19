@@ -1,0 +1,19 @@
+.header {
+    background-image: url("../img/brooklyn.jpg"); 
+    background-size: cover; 
+    background-position: top;
+    min-height: 95vh; 
+    position: relative; 
+    overflow: hidden; 
+
+    &__text-box {
+        position: absolute; 
+        top: 35rem; 
+        left: 25rem; 
+    }
+
+}
+
+.heading-primary {
+    color: $color-white; 
+}

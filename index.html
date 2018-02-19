@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:800,900" rel="stylesheet">
+    
+    
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Roberto Severino">
     <meta name="description" content="Page built with CSS Grids.">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:800,900" rel="stylesheet">
+ 
 
     <title>Huge Inc. - Home</title>
 </head>
@@ -20,395 +24,402 @@
     <div class="wrapper">
         <!-- Header Section -->
 
-        <header class="introduction">
-            <h1>Born in Brooklyn.</h1>
+        <header class="header">
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    Born in Brooklyn
+                </h1>           
+            </div>
 
         </header>
 
         <!-- Boxes section -->
 
-        <section id="main-content">
-            <div class="left-box">
-                <h4>About Us.</h4>
-            </div>
-
-            <div class="right-box">    
-                <div class="h2-section">
-                    <h2>We grow businesses by creating experiences people love.</h2>
-
+        <main>
+        <section class="section-about">
+                <div class="section-about--left">
+                    <h4 class="heading-quaternary">About Us.</h4>
                 </div>
+    
+                <div class="section-about--right">    
+                    <div class="h2-section">
+                        <h2 class="heading-secondary">We grow businesses by creating experiences people love.</h2>
+                        <p class="paragraph">Today, people embrace companies with the customer experiences that best meet their needs. Huge transforms
+                                companies by designing these best-in-class experiences, driven by strong creative and rooted in the technology,
+                                data, and organizational strategy required for operational excellence. We combine these capabilities
+                                into a single solution, creating unified brand experiences that change industries and foster meaningful
+                                relationships with users. This user-centric approach has made us the fastest-growing agency of the past
+                                decade.</p>
+                    </div>
+                </div>
+        </section>
+    
 
-                <p>Today, people embrace companies with the customer experiences that best meet their needs. Huge transforms
-                    companies by designing these best-in-class experiences, driven by strong creative and rooted in the technology,
-                    data, and organizational strategy required for operational excellence. We combine these capabilities
-                    into a single solution, creating unified brand experiences that change industries and foster meaningful
-                    relationships with users. This user-centric approach has made us the fastest-growing agency of the past
-                    decade.</p>
-
-            </div>
-
-
-
+<!-- 
+        <section class="video">
+            <video src="media/huge-inc-video.mp4" autoplay poster="posterimage.jpg">
+            Sorry, your browser doesn't support embedded videos, 
+            but don't worry, you can <a href="media/huge-inc-video.mp4">download it</a>
+            and watch it with your favorite video player!
+            </video>
         </section>
 
-        <section id="video">
-        <video src="media/huge-inc-video.mp4" autoplay poster="posterimage.jpg">
-        Sorry, your browser doesn't support embedded videos, 
-        but don't worry, you can <a href="media/huge-inc-video.mp4">download it</a>
-        and watch it with your favorite video player!
-        </video>
+    </div>
 
+        </main>
 
-        </section>
-
-        <section id="team-content">
-
-                <div class="story-container">
-                        <h4>How we do it.</h4>
-                        
-                        <h2>The unified brand experience</h2>
-                <div class="story-column">
-                        <p>Lean, interdisciplinary teams work in close collaboration with clients, helping them to solve their user’s biggest problems.
-                                Our user-centric, data-driven approach focuses on creating a seamless experience across all digital, physical and communications
-                                touchpoints. This unified brand experience results in a much more consistent, impactful, and valuable relationship with
-                                the user.</p>
-
-
+    
+            <section class="process">
+    
+                    <div class="process">
+                            <h4>How we do it.</h4>
+                            
+                            <h2>The unified brand experience</h2>
+                    <div class="story-column">
+                            <p>Lean, interdisciplinary teams work in close collaboration with clients, helping them to solve their user’s biggest problems.
+                                    Our user-centric, data-driven approach focuses on creating a seamless experience across all digital, physical and communications
+                                    touchpoints. This unified brand experience results in a much more consistent, impactful, and valuable relationship with
+                                    the user.</p>
+    
+    
+                    </div>
+    
+                <div class="venn-diagram">
+                    <div class="image-container">
+                        <img src="img/huge-diagram.png">
+    
+                    </div>
                 </div>
-
-            <div class="venn-diagram">
-                <div class="image-container">
-                    <img src="img/huge-diagram.png">
-
-                </div>
-            </div>
-
-        </section>
-
-        <section id="branding">
-                <div class="list-one">
-                        <h2>Strategy.</h2>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">Business Consulting</a>
-                                </li>
-                                <li>
-                                    <a href="#">Innovation</a>
-                                </li>
-                                <li>
-                                    <a href="#">Branding</a>
-                                </li>
-                                <li>
-                                    <a href="#">Data Science</a>
-                                </li>
-                                <li>
-                                    <a href="#">Research</a>
-                                </li>
-                            </ul>
+    
+            </section>
+    
+            <section id="branding">
+                    <div class="list-one">
+                            <h2>Strategy.</h2>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#">Business Consulting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Innovation</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Branding</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Data Science</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Research</a>
+                                    </li>
+                                </ul>
+                    
+                            </nav>
+            
+                        </div>
+            
+                        <div class="list-two">
+                            <h2>Product.</h2>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#">Experience Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Physical Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Service Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Technology</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Search Optimization</a>
+                                    </li>
+                                </ul>
+    
+                            </nav>
+                        </div>
+            
+                        <div class="list-three">
+                            <h2>Marketing.</h2>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#">Business Consulting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Innovation</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Branding</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Data Science</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Research</a>
+                                    </li>
+    
+                                </ul>
+    
+                            </nav>
+            
+                        </div>        
+    
+            </section>
+    
                 
-                        </nav>
-        
-                    </div>
-        
-                    <div class="list-two">
-                        <h2>Product.</h2>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">Experience Design</a>
-                                </li>
-                                <li>
-                                    <a href="#">Physical Design</a>
-                                </li>
-                                <li>
-                                    <a href="#">Service Design</a>
-                                </li>
-                                <li>
-                                    <a href="#">Technology</a>
-                                </li>
-                                <li>
-                                    <a href="#">Search Optimization</a>
-                                </li>
-                            </ul>
+    
+            <section id="call-to-action">
+                <h4>Made with love</h4>
+                <h2>A culture of innovation.</h2>
+                <div class="box">
+                    <h3>Schools.</h3>
+                    <p>Training the next generation of digital leaders.</p>
+                
+                </div>
+                
+                <div class="box">
+                    <h3>Smart Office.</h3>
+                    <p>Making our office work for us.</p>
+                
+                </div>
+                
+                <div class="box">
+                    <h3>Swag.</h3>
+                    <p>Limited edition merch that is always fresh and never sorry.</p>
+                
+                </div>
+                
+                <div class="box">
+                    <h3>Mixtape.</h3>
+                    <p>Our favorite music curated each month.</p>
+                
+                </div>
+                
+                <div class="box">
+                    <h3>Magenta.</h3>
+                    <p>Our publication for people who care about design and technology.</p>
+                
+                </div>
+                
+                <div class="box">
+                    <h3>Open Source.</h3>
+                    <p>Styleguide and other Github contributions.</p>
+                
+                </div>
+                
+                <div class="box">
+                    <h3>Honey.</h3>
+                    <p>An intuitive intranet, launched by our internal startup incubator.</p>
+                
+                </div>
+                
+                <div class="box">
+                    <h3>Huge Café.</h3>
+                    <p>Brewing great coffee and testing big ideas.</p>
+                
+                </div>
+    
+                <div class="box">
+                    <h3>Photography.</h3>
+                    <p>Photos shot by Huge employees around the world.</p>
+                
+                </div>
+    
+                <div class="box">
+                    <h3>Huge Change.</h3>
+                    <p>Partnering with non-profits for social impact.</p>
+                
+                </div>
+    
+            </section>
+    
+            <section id="office-list">
+    
+                <h4>Our offices.</h4>
+                <div class="box">
+                    <h3>Atlanta.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>DC.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>Medellín.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>Bogotá.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>Detroit.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>Oakland.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>Brooklyn.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>London.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>Singapore.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>Chicago.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+    
+                <div class="box">
+                    <h3>Los Angeles.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+                
+                
+                <div class="box">
+                    <h3>Toronto.</h3>
+                    <p>
+                        <a href="#">atl@sev-inc.com</a>
+                    </p>
+                </div>
+    
+            </section>
+    
+            <section id="company-leaders">
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+                
+                <div class="box">
+                    <h3>Aaron Shapiro</h3>
+                    <p>CEO</p>
+                </div>
+    
+    
+            </section>
+    
+            <section id="how-to-guide">
+                <h2>A Blockchain How-To</h2>
+                <p>Now is the time to get ahead of the curve with Blockchain. Here's your guide to a tailored Blockchain strategy.</p>
+            </section>
 
-                        </nav>
-                    </div>
-        
-                    <div class="list-three">
-                        <h2>Marketing.</h2>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">Business Consulting</a>
-                                </li>
-                                <li>
-                                    <a href="#">Innovation</a>
-                                </li>
-                                <li>
-                                    <a href="#">Branding</a>
-                                </li>
-                                <li>
-                                    <a href="#">Data Science</a>
-                                </li>
-                                <li>
-                                    <a href="#">Research</a>
-                                </li>
-
-                            </ul>
-
-                        </nav>
-        
-                    </div>        
-
-        </section>
-
-          
-
-        <section id="call-to-action">
-            <h4>Made with love</h4>
-            <h2>A culture of innovation.</h2>
-            <div class="box">
-                <h3>Schools.</h3>
-                <p>Training the next generation of digital leaders.</p>
-            
-            </div>
-            
-            <div class="box">
-                <h3>Smart Office.</h3>
-                <p>Making our office work for us.</p>
-            
-            </div>
-            
-            <div class="box">
-                <h3>Swag.</h3>
-                <p>Limited edition merch that is always fresh and never sorry.</p>
-            
-            </div>
-            
-            <div class="box">
-                <h3>Mixtape.</h3>
-                <p>Our favorite music curated each month.</p>
-            
-            </div>
-            
-            <div class="box">
-                <h3>Magenta.</h3>
-                <p>Our publication for people who care about design and technology.</p>
-            
-            </div>
-            
-            <div class="box">
-                <h3>Open Source.</h3>
-                <p>Styleguide and other Github contributions.</p>
-            
-            </div>
-            
-            <div class="box">
-                <h3>Honey.</h3>
-                <p>An intuitive intranet, launched by our internal startup incubator.</p>
-            
-            </div>
-            
-            <div class="box">
-                <h3>Huge Café.</h3>
-                <p>Brewing great coffee and testing big ideas.</p>
-            
-            </div>
-
-            <div class="box">
-                <h3>Photography.</h3>
-                <p>Photos shot by Huge employees around the world.</p>
-            
-            </div>
-
-            <div class="box">
-                <h3>Huge Change.</h3>
-                <p>Partnering with non-profits for social impact.</p>
-            
-            </div>
-
-        </section>
-
-        <section id="office-list">
-
-            <h4>Our offices.</h4>
-            <div class="box">
-                <h3>Atlanta.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            <div class="box">
-                <h3>DC.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            <div class="box">
-                <h3>Medellín.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            <div class="box">
-                <h3>Bogotá.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            <div class="box">
-                <h3>Detroit.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            <div class="box">
-                <h3>Oakland.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            <div class="box">
-                <h3>Brooklyn.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            <div class="box">
-                <h3>London.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            <div class="box">
-                <h3>Singapore.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            <div class="box">
-                <h3>Chicago.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-
-            <div class="box">
-                <h3>Los Angeles.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-            
-            
-            <div class="box">
-                <h3>Toronto.</h3>
-                <p>
-                    <a href="#">atl@sev-inc.com</a>
-                </p>
-            </div>
-
-        </section>
-
-        <section id="company-leaders">
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-            
-            <div class="box">
-                <h3>Aaron Shapiro</h3>
-                <p>CEO</p>
-            </div>
-
-
-        </section>
-
-        <section id="how-to-guide">
-            <h2>A Blockchain How-To</h2>
-            <p>Now is the time to get ahead of the curve with Blockchain. Here's your guide to a tailored Blockchain strategy.</p>
-        </section>
+        </main>
+  
 
 
         <footer>
@@ -429,6 +440,8 @@
         </footer>
 
     </div>
+
+-->
 
 </body>
 
