@@ -1,12 +1,13 @@
 
 .header {
     display: flex;
-    flex-flow: column; 
+    flex-flow: row; 
     flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
 
     &__text-box {
-        justify-content: center; 
-        align-items: center; 
+
     }
 }
 .section-about {
@@ -14,17 +15,20 @@
 
     &--left {
         display: flex;
-        flex-flow: row; 
-        flex-wrap: wrap; 
-        justify-content: center; 
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10rem;
 
     }
 
     &--right {
         display: flex;
-        justify-content: center; 
-        flex-wrap: wrap; 
-        flex-flow: row; 
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-flow: row;
+        grid-column: span 2;
+        align-items: center;
 
     }
 }

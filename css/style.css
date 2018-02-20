@@ -44,10 +44,17 @@ h4, h2 {
   overflow: hidden; }
 
 .heading-primary {
-  color: #fff; }
+  color: #fff;
+  margin-top: 28rem; }
 
 .section-about {
   min-height: 70vh; }
+
+.heading-quaternary {
+  padding: 6.3rem; }
+
+.h2-section {
+  padding: 10rem; }
 
 .section-about {
   display: grid;
@@ -55,20 +62,27 @@ h4, h2 {
 
 .header {
   display: flex;
-  flex-flow: column;
-  flex-wrap: wrap; }
-  .header__text-box {
-    justify-content: center;
-    align-items: center; }
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
 
 .section-about--left {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  margin: 10rem; }
 
 .section-about--right {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  flex-flow: row; }
+  flex-flow: row;
+  grid-column: span 2;
+  align-items: center; }
+
+.video-container__content {
+  width: 100%;
+  height: 100%;
+  display: block; }
