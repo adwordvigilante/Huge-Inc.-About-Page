@@ -5,14 +5,26 @@
 
 .how {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    align-items: center; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20rem;
+    align-items: center;
     background: $color-black; 
     color: $color-white; 
+    padding: $default-container-padding; 
 
     &__content {
         grid-row: 1 / 4; 
 
     }
+
+}
+
+.branding {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: $color-black; 
+    color: $color-white; 
+    padding: $default-container-padding; 
+
 
 }

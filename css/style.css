@@ -20,12 +20,15 @@ h4, h2 {
 p {
   font-size: 2.3rem; }
 
-.users__img {
-  max-width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0;
-  display: block; }
+.users {
+  width: 40rem;
+  max-width: 100%; }
+  .users__img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: block; }
 
 .heading-primary {
   font-size: 17rem;
@@ -71,6 +74,25 @@ p {
 .h2-section {
   padding: 10rem; }
 
+nav ul a {
+  text-decoration: none;
+  color: #fff; }
+
+nav ul a:visited {
+  color: #fff; }
+
+nav ul a:hover {
+  color: #FC0089;
+  transition: all .2s; }
+
+nav ul a:active {
+  color: #fff; }
+
+.branding__list h2 {
+  font-size: 3rem; }
+  .branding__list h2 li {
+    font-size: 2.4rem; }
+
 .section-about {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr)); }
@@ -78,11 +100,20 @@ p {
 .how {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20rem;
   align-items: center;
   background: #000;
-  color: #fff; }
+  color: #fff;
+  padding: 15rem; }
   .how__content {
     grid-row: 1 / 4; }
+
+.branding {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #000;
+  color: #fff;
+  padding: 15rem; }
 
 .header {
   display: flex;
