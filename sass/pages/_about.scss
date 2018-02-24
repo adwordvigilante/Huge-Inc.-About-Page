@@ -5,6 +5,9 @@
     min-height: 80vh; 
     position: relative; 
     overflow: hidden; 
+    display: flex; 
+    justify-content: space-between;
+
 
 
 }
@@ -12,6 +15,9 @@
 .heading-primary {
     color: $color-white; 
     margin-top: 28rem; 
+    display: flex;
+    flex: 0 0 1;
+    flex-direction: column; 
 }
 
 .section-about {

@@ -1,0 +1,93 @@
+*,
+*::after,
+*a::before {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Arapey', sans-serif;
+  line-height: 1.3;
+  color: #000;
+  font-size: 1.6rem;
+  box-sizing: border-box; }
+
+h4, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
+
+.heading-primary {
+  font-size: 17rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+
+.heading-secondary {
+  font-size: 7rem;
+  font-family: 'Arapey', serif;
+  font-weight: lighter; }
+
+.paragraph {
+  font-size: 2.2rem; }
+
+.line {
+  border-top: 1px solid black;
+  padding-top: 2rem;
+  width: 23rem; }
+
+.header {
+  background-image: url("../img/brooklyn.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between; }
+
+.heading-primary {
+  color: #fff;
+  margin-top: 28rem;
+  display: flex;
+  flex: 0 0 1;
+  flex-direction: column; }
+
+.section-about {
+  min-height: 70vh; }
+
+.heading-quaternary {
+  padding: 6.3rem; }
+
+.h2-section {
+  padding: 10rem; }
+
+.section-about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr)); }
+
+.header {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.section-about--left {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10rem; }
+
+.section-about--right {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: row;
+  grid-column: span 2;
+  align-items: center; }
+
+.video-container__content {
+  width: 100%;
+  height: 100%;
+  display: block; }
